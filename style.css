@@ -38,53 +38,31 @@ button:hover {
   border-radius: 10px;
   box-shadow: 0 0 10px #ddd;
 }
-#contact {
-  background: #fff;
-  padding: 60px 20px;
-}
-form {
-  max-width: 500px;
-  margin: auto;
-}
 .form-group {
-  position: relative;
-  margin: 20px 0;
+  margin: 15px 0;
 }
-.form-group i {
-  position: absolute;
-  top: 14px;
-  left: 10px;
-  color: #888;
-}
-input, textarea {
-  width: 100%;
-  padding: 12px 12px 12px 40px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 16px;
-  outline: none;
-  transition: border-color 0.3s ease;
-}
-input:focus, textarea:focus {
-  border-color: #2575fc;
-}
-textarea {
-  height: 100px;
-  resize: none;
-}
-button {
+label {
   display: flex;
   align-items: center;
   gap: 10px;
-  background: #2575fc;
+}
+input, textarea {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+textarea {
+  width: 100%;
+  resize: vertical;
+}
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #2575fc;
   color: white;
   border: none;
-  padding: 12px 20px;
-  border-radius: 8px;
-  font-size: 16px;
+  border-radius: 6px;
   cursor: pointer;
-  transition: background 0.3s;
-}
-button:hover {
-  background: #6a11cb;
 }
