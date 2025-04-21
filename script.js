@@ -1,4 +1,4 @@
-const phrases = ["Data Scientist", "AI Developer", "Creative Thinker"];
+const phrases = ["Business Analyst", "Data Enthusiast", "Problem Solver"];
 let i = 0, j = 0, currentPhrase = [], isDeleting = false, isEnd = false;
 function loop() {
   document.getElementById('typed-text').innerHTML = currentPhrase.join('');
