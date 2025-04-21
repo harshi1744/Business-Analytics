@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harshitha's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h1>Hi, I'm Harshitha👩‍💻</h1>
+    <h2><span id="typed-text"></span></h2>
+    <button onclick="scrollToSection('projects')">View My Work</button>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a business graduate passionate about data-driven decision making, innovation, and leveraging analytics to solve real-world challenges.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div id="project-container"></div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Harshitha Sreiya Palaparthi" required/>
+      <input type="email" placeholder="harshithasreiyapalaparthi@gmail.com" required/>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
