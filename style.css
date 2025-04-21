@@ -38,31 +38,18 @@ button:hover {
   border-radius: 10px;
   box-shadow: 0 0 10px #ddd;
 }
-.form-group {
-  margin: 15px 0;
-}
-label {
+.contact-icons {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
 }
-input, textarea {
-  flex: 1;
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  font-size: 14px;
+.contact-icons a {
+  font-size: 32px;
+  color: #2575fc;
+  transition: transform 0.3s, color 0.3s;
 }
-textarea {
-  width: 100%;
-  resize: vertical;
-}
-button {
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #2575fc;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
+.contact-icons a:hover {
+  color: #6a11cb;
+  transform: scale(1.2);
 }
