@@ -43,3 +43,9 @@ projects.forEach(proj => {
   card.innerHTML = `<h3>${proj.title}</h3><p>${proj.description}</p>`;
   container.appendChild(card);
 });
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert('Thank you! Your message has been sent.');
+  this.reset();
+});
+
